@@ -1,6 +1,6 @@
 # README
 
-The most prolific user is Alakazam. Alakazam posted 6 times with an average post length of .....
+The most prolific user is Alakazam. Alakazam posted 6 times.
 
 
 This README would normally document whatever steps are necessary to get the
