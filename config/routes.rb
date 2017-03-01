@@ -8,4 +8,5 @@ post "/users" => 'users#create'
 get "/posts/:id" => 'posts#show'
 get "/posts/:id/comments" => 'posts#show_comments'
 post "/comments" => 'comments#create'
+get "/users/:id/posts" => 'users#users_posts'
 end

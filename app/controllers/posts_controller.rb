@@ -15,4 +15,10 @@ class PostsController < ApplicationController
     render json: @comments
   end
 
+  def destroy
+    @post = Post.find(params[:id])
+    @post.destroy
+    render status: 200
+  end
+
 end

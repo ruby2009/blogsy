@@ -15,6 +15,11 @@ class UsersController < ApplicationController
 
   end
 
+  def users_posts
+    @posts = Post.where(user: params[:id])
+    render json: @posts
+  end
+
   private
 
   def user_params
