@@ -20,7 +20,7 @@ gem 'puma', '~> 3.0'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'factory_girl'
-
+gem 'active_model_serializers','~> 0.10.0'
 gem 'pry-rails'
 gem 'faker'
 # Use Capistrano for deployment
